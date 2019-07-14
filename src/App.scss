@@ -8,8 +8,8 @@ $bark: #60412b;
 body {
   margin: 0;
   font-family: "Merriweather", serif;
-  background-color: black;
-  color: $frost;
+  background-color: $frost;
+  color: $nightfall_dark;
   font-size: 10px;
 }
 
@@ -19,29 +19,14 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-button {
-  border: none;
-  background: transparent;
-  color: $lead;
-  font-size: 2rem;
-  font-family: "Dancing Script", cursive;
-  font-style: oblique;
-  padding: 0 1rem;
+#app-cast-launcher {
+  height: 50px;
 }
 
-button:hover {
-  cursor: pointer;
-  color: $frost;
-}
-
-button:active,
-button:focus {
-  border: none;
-  outline: none;
-}
-
-button:not(:last-of-type) {
-  border-right: 1px solid $lead;
+#app-cast-button {
+  margin-top: 1rem;
 }
