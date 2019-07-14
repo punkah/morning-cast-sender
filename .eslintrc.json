@@ -1,0 +1,20 @@
+{
+  "extends": ["airbnb"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "linebreak-style": "off",
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+    "react/jsx-one-expression-per-line": "off"
+  },
+  "globals": {
+    "document": true,
+    "GIT_VERSION": true
+  }
+}
